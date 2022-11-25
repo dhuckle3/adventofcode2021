@@ -1,0 +1,38 @@
+Paths
+
+A-B-C
+D-E-F
+G-H-I
+
+
+// Find path from A to I
+
+nodes2search = Set(A);
+path2cost = Map();
+
+var goalCost = () => {
+    // the max (min?) cost to get to the goal.
+}
+
+// path from start to (?)
+path2cost.has(A)
+
+
+while(!nextNodes.isEmpty()) {
+    for (const node of nodes) {
+        if (!path2cost.contains(A)) {
+            path2cost.put(A, )
+        }
+    }
+}
+
+
+/*  for each node in the open set:
+ *      for each adjacent to node:
+ *          if cost to adjacent is less than min cost to adjacent:
+ *              save the new path
+ *              add adjacent to the open set
+ *          if adjacent is the goal:
+ *              ???
+ *
+ * /
